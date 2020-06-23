@@ -78,3 +78,22 @@ The following table consists of values for a few pairs of stereo images:
 For a pair of stereo image (0000, 0001):  
 
 ![alt text](https://github.com/MadHatter01/3D-Reconstruction-using-Structure-From-Motion/blob/master/image_files/eval_table2.PNG?raw=true)
+
+
+### References:
+
+* Multiple view geometry in computer vision - Book by Richard Hartley  
+* Camera Calibration and 3D Reconstruction docs  
+  * https://docs.opencv.org/2.4/modules/calib3d/doc/camera_calibration_and_3d_reconstruction.html
+  * https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_calib3d/py_table_of_contents_calib3d/py_table_of_contents_calib3d.html
+  * https://github.com/opencv/opencv/tree/3.1.0/samples/cpp/tutorial_code/calib3d
+* Rodrigues Rotation Formula
+  * https://en.wikipedia.org/wiki/Rodrigues%27_rotation_formula
+  * https://stackoverflow.com/questions/12933284/rodrigues-into-eulerangles-and-vice-versa
+* Bundle Adjustment
+  * http://grail.cs.washington.edu/projects/bal/
+  * https://scipy-cookbook.readthedocs.io/items/bundle_adjustment.html
+* Depth Map
+  * https://docs.opencv.org/master/dd/d53/tutorial_py_depthmap.html
+* Lucas-Kanade Method
+  * https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_video/py_lucas_kanade/py_lucas_kanade.html
