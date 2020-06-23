@@ -57,10 +57,24 @@ property float y
 property float z  
 end_header  
 
+![alt text](https://github.com/MadHatter01/3D-Reconstruction-using-Structure-From-Motion/blob/master/image_files/snapshot1.PNG?raw=true)
+
 #### Reprojection errors:
 I have calculated the reprojection errors by applying the projection matrix to the 3D
 points and applying the affine transformations. The 2D homogeneous points were
 calculated, they were later translated to non homogeneous points. These points were
 compared with the original 2D points of image 2. The reprojection error was estimated
-using the Root Mean Squared Error formula.
+using the Root Mean Squared Error formula (Below).
 
+![alt text](https://github.com/MadHatter01/3D-Reconstruction-using-Structure-From-Motion/blob/master/image_files/formula3.PNG?raw=true)
+
+![alt text](https://github.com/MadHatter01/3D-Reconstruction-using-Structure-From-Motion/blob/master/image_files/snapshot2.PNG?raw=true)
+
+### Evaluation Tables
+The following table consists of values for a few pairs of stereo images:  
+
+![alt text](https://github.com/MadHatter01/3D-Reconstruction-using-Structure-From-Motion/blob/master/image_files/eval_table.PNG?raw=true)
+
+For a pair of stereo image (0000, 0001):  
+
+![alt text](https://github.com/MadHatter01/3D-Reconstruction-using-Structure-From-Motion/blob/master/image_files/eval_table2.PNG?raw=true)
